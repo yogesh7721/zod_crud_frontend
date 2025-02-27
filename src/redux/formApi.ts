@@ -35,7 +35,7 @@ export const formApi = createApi({
     reducerPath: "formApi",
     baseQuery: fetchBaseQuery({
         //  baseUrl: "http://localhost:5000/api" 
-        baseUrl: "https://zod-with-crud.onrender.com/api"
+        baseUrl: "https://zod-with-crud.vercel.app/api"
     }),
     tagTypes: ["tagName"],
     endpoints: (builder) => ({
